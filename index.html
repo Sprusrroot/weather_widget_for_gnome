@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="bg-static"></div>
+
+    <div class="main-widget">
+        <div id="current-date" class="date-text">-- -- ----</div>
+
+        <div class="header-row">
+            <h1 id="city">Loading...</h1>
+            <img src="img/day/clear-day.svg" id="current-icon" class="main-icon">
+        </div>
+
+        <div class="temp-section">
+            <div class="temp-big">
+                <span id="temp">--</span>°C
+            </div>
+            <div class="status-text">
+                Ощущается как <span id="feels-like">--</span>°C.
+                <span id="description">--</span>.
+                <span id="wind-desc">--</span>
+            </div>
+        </div>
+
+        <div class="details-box">
+            <div class="detail-line">
+                <span id="wind-speed">--</span> <span id="wind-dir">--</span>
+                <span class="separator">|</span>
+                <span id="pressure">--</span> hPa
+            </div>
+            <div class="detail-line">
+                Влажность: <span id="humidity">--</span>%
+                <span class="separator">|</span>
+                Точка росы: <span id="dew-point">--</span>°C
+            </div>
+            <div class="detail-line">
+                Видимость: <span id="visibility">--</span> km
+            </div>
+        </div>
+
+        <div class="forecast-container" id="forecast"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
