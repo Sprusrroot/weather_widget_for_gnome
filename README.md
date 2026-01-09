@@ -11,3 +11,4 @@ Weather Widget For Gnome
 *im use this icons:* https://basmilius.github.io/weather-icons/index-fill.html
 
 **RESULT:**
+<img width="1920" height="1080" alt="Снимок экрана от 2026-01-09 16-55-50" src="https://github.com/user-attachments/assets/ff5ac35c-fc97-42b7-b2d3-d505266d8844" />
